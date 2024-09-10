@@ -1,0 +1,706 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Acelga",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 2,
+      "name": "Apio",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 3,
+      "name": "Berros",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 4,
+      "name": "col",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 5,
+      "name": "cilantro",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 6,
+      "name": "esparragos",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 7,
+      "name": "espinacas",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 8,
+      "name": "germen de alfalfa",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 9,
+      "name": "jitomate",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 10,
+      "name": "lechuga",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 11,
+      "name": "pimiento",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 12,
+      "name": "pepinos",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 13,
+      "name": "rabano",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 14,
+      "name": "perejil",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 15,
+      "name": "tomate",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 16,
+      "name": "berenjena",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 17,
+      "name": "elote",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 18,
+      "name": "coliflor",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 19,
+      "name": "chayote",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 20,
+      "name": "nopales",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 21,
+      "name": "verdolagas",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 22,
+      "name": "betabel",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 23,
+      "name": "brocoli",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 24,
+      "name": "jicama",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 25,
+      "name": "flor de calabaza",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 26,
+      "name": "cebolla",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 27,
+      "name": "chicharos",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 28,
+      "name": "zanahoria",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 29,
+      "name": "cuitlacoche",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 30,
+      "name": "germinados",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 31,
+      "name": "chile poblano",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 32,
+      "name": "calabacitas",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 33,
+      "name": "champiñones",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "verdura"
+    },
+    {
+      "id": 34,
+      "name": "kiwi",
+      "measures": [{ "portion": "1/2", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 35,
+      "name": "pera",
+      "measures": [{ "portion": "1/2", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 36,
+      "name": "platano",
+      "measures": [{ "portion": "1/2", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 37,
+      "name": "Manzana",
+      "measures": [{ "portion": "1", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 38,
+      "name": "guanabana",
+      "measures": [{ "portion": "1", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 39,
+      "name": "durazno",
+      "measures": [{ "portion": "2", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 40,
+      "name": "naranja",
+      "measures": [{ "portion": "2", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 41,
+      "name": "mandarina",
+      "measures": [{ "portion": "2", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 42,
+      "name": "guayaba",
+      "measures": [{ "portion": "3", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 43,
+      "name": "pasas",
+      "measures": [{ "portion": "10", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 44,
+      "name": "uvas",
+      "measures": [{ "portion": "18", "measure": "pza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 45,
+      "name": "blueberries",
+      "measures": [{ "portion": "3/4", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 46,
+      "name": "piña",
+      "measures": [{ "portion": "3/4", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 47,
+      "name": "franbuesa",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 48,
+      "name": "fresa rebanada",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 49,
+      "name": "mango",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 50,
+      "name": "melon",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 51,
+      "name": "papaya",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 52,
+      "name": "sandia",
+      "measures": [{ "portion": "1", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 53,
+      "name": "agua de coco",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 54,
+      "name": "arandanos",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "fruta"
+    },
+    {
+      "id": 55,
+      "name": "amaranto tostado",
+      "measures": [{ "portion": "1/4", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 56,
+      "name": "arroz",
+      "measures": [{ "portion": "1/4", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 57,
+      "name": "avena",
+      "measures": [{ "portion": "3/4", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 58,
+      "name": "bolillo sin migajon",
+      "measures": [{ "portion": "1/3", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 59,
+      "name": "bollo para hamburguesa",
+      "measures": [{ "portion": "1/3", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 60,
+      "name": "camote al horno",
+      "measures": [{ "portion": "1/3", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 61,
+      "name": "cereal sin azuacar",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 62,
+      "name": "crepas",
+      "measures": [
+        { "portion": "2", "measure": "pza" },
+        { "portion": "30", "measure": "gr" }
+      ],
+      "category": "cereal"
+    },
+    {
+      "id": 63,
+      "name": "elote blanco",
+      "measures": [{ "portion": "1/2", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 64,
+      "name": "galleta maria",
+      "measures": [{ "portion": "5", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 65,
+      "name": "hot cake",
+      "measures": [{ "portion": "3/4", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 66,
+      "name": "palomitas naturales",
+      "measures": [{ "portion": "2 1/2", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 67,
+      "name": "pan de caja / tostado",
+      "measures": [{ "portion": "1", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 68,
+      "name": "pan molido",
+      "measures": [{ "portion": "8", "measure": "cdta" }],
+      "category": "cereal"
+    },
+    {
+      "id": 69,
+      "name": "papa cocida",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 70,
+      "name": "pasta cocida",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 71,
+      "name": "tortilla de maiz",
+      "measures": [{ "portion": "1", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 72,
+      "name": "tostadas horneadas",
+      "measures": [{ "portion": "2", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 73,
+      "name": "salmas",
+      "measures": [{ "portion": "3", "measure": "pza" }],
+      "category": "cereal"
+    },
+    {
+      "id": 74,
+      "name": "quinoa",
+      "measures": [{ "portion": "20", "measure": "gr" }],
+      "category": "cereal"
+    },
+    {
+      "id": 75,
+      "name": "arrachera",
+      "measures": [{ "portion": "30", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 76,
+      "name": "atun en agua",
+      "measures": [{ "portion": "1/3", "measure": "lata" }],
+      "category": "proteina"
+    },
+    {
+      "id": 77,
+      "name": "bistec",
+      "measures": [{ "portion": "30", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 78,
+      "name": "carne de cerdo",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 79,
+      "name": "claras de huevo",
+      "measures": [{ "portion": "2", "measure": "pza" }],
+      "category": "proteina"
+    },
+    {
+      "id": 80,
+      "name": "pollo deshebrado",
+      "measures": [{ "portion": "1/4", "measure": "taza" }],
+      "category": "proteina"
+    },
+    {
+      "id": 81,
+      "name": "conejo",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 82,
+      "name": "filete de pescado",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 83,
+      "name": "filete de pollo",
+      "measures": [{ "portion": "30", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 84,
+      "name": "higado de salmon",
+      "measures": [{ "portion": "30", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 85,
+      "name": "higado de res",
+      "measures": [{ "portion": "25", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 86,
+      "name": "huevo",
+      "measures": [{ "portion": "1", "measure": "pza" }],
+      "category": "proteina"
+    },
+    {
+      "id": 87,
+      "name": "lomo de cerdo",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 88,
+      "name": "molida de cerdo",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 89,
+      "name": "molida de res",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 90,
+      "name": "muslo de pollo",
+      "measures": [{ "portion": "1/2", "measure": "pza" }],
+      "category": "proteina"
+    },
+    {
+      "id": 91,
+      "name": "pavo",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 92,
+      "name": "pechiga de pollo",
+      "measures": [{ "portion": "30", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 93,
+      "name": "pierna de pollo",
+      "measures": [{ "portion": "1/4", "measure": "pza" }],
+      "category": "proteina"
+    },
+    {
+      "id": 94,
+      "name": "Aceite",
+      "measures": [{ "portion": "1", "measure": "cdta" }],
+      "category": "grasa"
+    },
+    {
+      "id": 95,
+      "name": "aceite de oliva",
+      "measures": [{ "portion": "1", "measure": "cdta" }],
+      "category": "grasa"
+    },
+    {
+      "id": 96,
+      "name": "aguacate",
+      "measures": [{ "portion": "1/3", "measure": "pza" }],
+      "category": "grasa"
+    },
+    {
+      "id": 97,
+      "name": "guacamole",
+      "measures": [{ "portion": "2", "measure": "cda" }],
+      "category": "grasa"
+    },
+    {
+      "id": 98,
+      "name": "mantequilla",
+      "measures": [{ "portion": "11/2", "measure": "cdta" }],
+      "category": "grasa"
+    },
+    {
+      "id": 99,
+      "name": "mayonesa",
+      "measures": [{ "portion": "1", "measure": "cdta" }],
+      "category": "grasa"
+    },
+    {
+      "id": 100,
+      "name": "tocino (rebanada delgada)",
+      "measures": [{ "portion": "1", "measure": "pza" }],
+      "category": "grasa"
+    },
+    {
+      "id": 101,
+      "name": "vinagreta",
+      "measures": [{ "portion": "2", "measure": "cdta" }],
+      "category": "grasa"
+    },
+    {
+      "id": 102,
+      "name": "frijol",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "leguminosas"
+    },
+    {
+      "id": 103,
+      "name": "habas",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "leguminosas"
+    },
+    {
+      "id": 104,
+      "name": "lentejas",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "leguminosas"
+    },
+    {
+      "id": 105,
+      "name": "garbanzo",
+      "measures": [{ "portion": "1/2", "measure": "taza" }],
+      "category": "leguminosas"
+    },
+    {
+      "id": 106,
+      "name": "ajonjoli tostado",
+      "measures": [{ "portion": "3", "measure": "cdta" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 107,
+      "name": "almendras",
+      "measures": [{ "portion": "10", "measure": "pza" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 108,
+      "name": "cacahuate sin sal",
+      "measures": [{ "portion": "14", "measure": "pza" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 109,
+      "name": "chilorio",
+      "measures": [{ "portion": "30", "measure": "gr" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 110,
+      "name": "chorizo",
+      "measures": [{ "portion": "15", "measure": "gr" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 111,
+      "name": "nuez",
+      "measures": [{ "portion": "3", "measure": "pza" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 112,
+      "name": "pepitas",
+      "measures": [{ "portion": "60", "measure": "pza" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 113,
+      "name": "pistache",
+      "measures": [{ "portion": "18", "measure": "pza" }],
+      "category": "grasa con proteina"
+    },
+    {
+      "id": 114,
+      "name": "Queso Panela",
+      "measures": [{ "portion": "40", "measure": "gr" }],
+      "category": "proteina"
+    },
+    {
+      "id": 115,
+      "name": "zanahoria baby",
+      "measures": [{ "portion": "4", "measure": "pza" }],
+      "category": "verdura"
+    }
+  ],
+  "colors": [
+    { "category": "cereal", "color": "sky" },
+    { "category": "verdura", "color": "green" },
+    { "category": "fruta", "color": "orange" },
+    { "category": "proteina", "color": "red" },
+    { "category": "grasa", "color": "amber" },
+    { "category": "grasa con proteina", "color": "purple" },
+    { "category": "leguminosas", "color": "brown" }
+  ]
+}
