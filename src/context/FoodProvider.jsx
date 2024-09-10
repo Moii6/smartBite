@@ -21,7 +21,7 @@ const FoodProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:4000/foods")
+    fetch(import.meta.env.VITE_API_SERVER_URL)
       .then((response) => response.json())
       .then((data) => {
         setFoodList(data);

@@ -42,29 +42,6 @@ const SearchComponent = () => {
           <li className="text-gray-500">No se encontro nada</li>
         )}
       </div>
-      <ul className="space-y-4 ">
-        {filteredFoods.length > 0 ? (
-          filteredFoods.map((food) => (
-            <>
-              <li key={food.id} className="p-4 bg-white rounded shadow">
-                <h2 className="text-xl font-semibold">{food.name}</h2>
-                <p className="text-gray-600">
-                  {food.description != "N/A" && food.description}
-                </p>
-                <p className="font-medium">Categoria: {food.category}</p>
-                <p>
-                  Porcion:{" "}
-                  {food.measures
-                    .map((measure) => `${measure.portion} ${measure.measure}`)
-                    .join(", ")}
-                </p>
-              </li>
-            </>
-          ))
-        ) : (
-          <li className="text-gray-500">No se encontro nada</li>
-        )}
-      </ul>
     </div>
   );
 };
