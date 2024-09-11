@@ -43,13 +43,13 @@ const FoodComponent = ({ food }) => {
       }}
     >
       <div className="">
-        <h2 className="text-lg md:text-md">{toCapitalCase(food.name)}</h2>
+        <h2 className="text-3xl md:text-md">{toCapitalCase(food.name)}</h2>
         <p className="text-xs text-gray-500">{food.category}</p>
       </div>
-      <div className="flex items-center ">
+      <div className="flex flex-col items-center ">
         {food.measures.length > 0 ? (
           food.measures.map((item) => (
-            <div className="flex items-center gap-2 ">
+            <div key={item.id} className="flex items-center gap-2 ">
               <p>{item.portion}</p>
               <p>{item.measure}</p>
             </div>

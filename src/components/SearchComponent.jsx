@@ -4,7 +4,7 @@ import useFood from "../hooks/useFood";
 
 const SearchComponent = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const { foodList } = useFood([]);
+  const { foodList, loading } = useFood([]);
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value.toLowerCase());
@@ -23,7 +23,21 @@ const SearchComponent = () => {
 
   return (
     <div className="p-4 mx-auto ">
-      <h1 className="mb-4 text-2xl font-bold">Alimentos</h1>
+      <div className="flex justify-between">
+        <h1 className="mb-4 text-2xl font-bold">Alimentos</h1>
+        <p className="text-lg font-medium text-orange-400">
+          smart{" "}
+          <span className="pr-1 text-xl font-bold text-blue-700 border-r-8 border-blue-700">
+            Bite
+          </span>
+        </p>
+      </div>
+
+      {loading && (
+        <p className="p-2 my-3 font-bold bg-amber-200 text-amber-700">
+          Cargando datos, porfavor espere...
+        </p>
+      )}
       <input
         type="text"
         placeholder="Escribe un nombre, categoria o porcion "
@@ -31,11 +45,11 @@ const SearchComponent = () => {
         onChange={handleSearch}
         value={searchTerm}
       />
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <div className="grid h-screen grid-cols-1 gap-4 overflow-y-scroll sm:grid-cols-2 xl:grid-cols-3">
         {filteredFoods.length > 0 ? (
           filteredFoods.map((food) => (
             <div className="">
-              <FoodComponent food={food} />
+              <FoodComponent key={food.id} food={food} />
             </div>
           ))
         ) : (

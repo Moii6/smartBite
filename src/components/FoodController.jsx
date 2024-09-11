@@ -5,7 +5,10 @@ const FoodController = () => {
 
   return (
     <div className="container p-4 mx-auto">
-      <h1 className="mb-4 text-2xl font-bold">Alimentos</h1>
+      <h1 className="mb-4 text-2xl font-bold">
+        Alimntos <span>smart bite</span>
+      </h1>
+      <p>smartBite</p>
       <ul>
         {foodList.map((food) => (
           <li key={food.id} className="p-4 mb-4 bg-white rounded-lg shadow-md">

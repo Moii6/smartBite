@@ -3,6 +3,7 @@ import React, { createContext, useEffect, useState } from "react";
 const FoodContext = createContext();
 const FoodProvider = ({ children }) => {
   const [foodList, setFoodList] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   // Puedes agregar funciones y valores que deseas compartir
   const fillFoodList = (list) => {
@@ -21,15 +22,19 @@ const FoodProvider = ({ children }) => {
   };
 
   useEffect(() => {
+    setLoading(true);
     fetch(import.meta.env.VITE_API_SERVER_URL)
       .then((response) => response.json())
       .then((data) => {
+        setLoading(false);
         setFoodList(data);
       });
   }, []);
 
   return (
-    <FoodContext.Provider value={{ foodList, fillFoodList, toCapitalCase }}>
+    <FoodContext.Provider
+      value={{ foodList, loading, fillFoodList, toCapitalCase }}
+    >
       {children}
     </FoodContext.Provider>
   );
