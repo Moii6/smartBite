@@ -1,8 +1,7 @@
 import Rect, { useState } from "react";
 import "./App.css";
-import FoodController from "./components/FoodController";
-import SearchComponent from "./components/SearchComponent";
 import { FoodProvider } from "./context/FoodProvider";
+import MainComponent from "./components/MainComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
       <FoodProvider>
-        <SearchComponent />
+        <MainComponent />
       </FoodProvider>
     </>
   );

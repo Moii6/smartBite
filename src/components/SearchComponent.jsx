@@ -22,22 +22,7 @@ const SearchComponent = () => {
   });
 
   return (
-    <div className="p-4 mx-auto ">
-      <div className="flex justify-between">
-        <h1 className="mb-4 text-2xl font-bold">Alimentos</h1>
-        <p className="text-lg font-medium text-orange-400">
-          smart{" "}
-          <span className="pr-1 text-xl font-bold text-blue-700 border-r-8 border-blue-700">
-            Bite
-          </span>
-        </p>
-      </div>
-
-      {loading && (
-        <p className="p-2 my-3 font-bold bg-amber-200 text-amber-700">
-          Cargando datos, porfavor espere...
-        </p>
-      )}
+    <div className="flex flex-col p-4">
       <input
         type="text"
         placeholder="Escribe un nombre, categoria o porcion "
